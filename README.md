@@ -29,7 +29,7 @@ The system is constructed as a dual-layer institutional platform:
 
 ## 🖥️ Public UI Architecture & Wireframe
 
-For full details, review [docs/PUBLIC_UI_MAP.md](docs/PUBLIC_UI_MAP.md).
+For full details, review [docs/public/PUBLIC_UI_MAP.md](docs/public/PUBLIC_UI_MAP.md).
 
 ```mermaid
 graph TD
@@ -94,7 +94,7 @@ graph TD
 
 ## 📊 Entity Relationship (ER) Diagram
 
-For full schema details, review [docs/ER_DIAGRAM.md](docs/ER_DIAGRAM.md).
+For full schema details, review [docs/public/ER_DIAGRAM.md](docs/public/ER_DIAGRAM.md).
 
 ```mermaid
 erDiagram
@@ -146,7 +146,7 @@ erDiagram
 
 ## 📁 Enterprise Project Folder Structure
 
-For complete directory file paths, review [docs/FOLDER_STRUCTURE.md](docs/FOLDER_STRUCTURE.md).
+For complete directory file paths, review [docs/public/FOLDER_STRUCTURE.md](docs/public/FOLDER_STRUCTURE.md).
 
 ```plaintext
 nafein-academy/
@@ -197,9 +197,13 @@ nafein-academy/
 
 ## 🔗 Detailed Documentation Links
 
-* 📄 [Public UI Map & Wireframe Specification](docs/PUBLIC_UI_MAP.md)
-* 📊 [Complete Entity Relationship (ER) Diagram](docs/ER_DIAGRAM.md)
-* 📁 [Project Folder Structure & Codebase Architecture](docs/FOLDER_STRUCTURE.md)
+### 🌐 Public Portal Architecture
+* 📄 [Public UI Map & Wireframe Specification](docs/public/PUBLIC_UI_MAP.md)
+* 📊 [Complete Entity Relationship (ER) Diagram](docs/public/ER_DIAGRAM.md)
+* 📁 [Project Folder Structure & Codebase Architecture](docs/public/FOLDER_STRUCTURE.md)
+
+### 🔐 Authenticated Portals (Pending Access)
+* 🔒 [Student & Teacher Portals Documentation (WIP)](docs/portals/README.md)
 
 ---
 
