@@ -29,7 +29,7 @@ The system is constructed as a dual-layer institutional platform:
 
 ## 🖥️ Public UI Architecture & Wireframe
 
-For full details, review [docs/public/PUBLIC_UI_MAP.md](docs/public/PUBLIC_UI_MAP.md).
+For full details, review [docs/public/UI_MAP.md](docs/public/UI_MAP.md).
 
 ```mermaid
 graph TD
@@ -94,7 +94,7 @@ graph TD
 
 ## 📊 Entity Relationship (ER) Diagram
 
-For full schema details, review [docs/public/ER_DIAGRAM.md](docs/public/ER_DIAGRAM.md).
+For full schema details, review [docs/overall/ER_DIAGRAM.md](docs/overall/ER_DIAGRAM.md).
 
 ```mermaid
 erDiagram
@@ -146,7 +146,7 @@ erDiagram
 
 ## 📁 Enterprise Project Folder Structure
 
-For complete directory file paths, review [docs/public/FOLDER_STRUCTURE.md](docs/public/FOLDER_STRUCTURE.md).
+For complete directory file paths, review [docs/overall/FOLDER_STRUCTURE.md](docs/overall/FOLDER_STRUCTURE.md).
 
 ```plaintext
 nafein-academy/
@@ -197,13 +197,19 @@ nafein-academy/
 
 ## 🔗 Detailed Documentation Links
 
-### 🌐 Public Portal Architecture
-* 📄 [Public UI Map & Wireframe Specification](docs/public/PUBLIC_UI_MAP.md)
-* 📊 [Complete Entity Relationship (ER) Diagram](docs/public/ER_DIAGRAM.md)
-* 📁 [Project Folder Structure & Codebase Architecture](docs/public/FOLDER_STRUCTURE.md)
+### 1. 🌐 Overall System Architecture (`docs/overall/`)
+* 📊 [Overall ER Diagram (Whole CMS/SMS)](docs/overall/ER_DIAGRAM.md)
+* 🗺️ [Overall UI Architecture Map](docs/overall/UI_MAP.md)
+* 📁 [Overall CMS Folder Structure](docs/overall/FOLDER_STRUCTURE.md)
 
-### 🔐 Authenticated Portals (Pending Access)
-* 🔒 [Student & Teacher Portals Documentation (WIP)](docs/portals/README.md)
+### 2. 🏛️ Public Website Architecture (`docs/public/`)
+* 📊 [Public Website ER Diagram](docs/public/ER_DIAGRAM.md)
+* 🗺️ [Public UI & Navigation Map](docs/public/UI_MAP.md)
+
+### 3. 🔐 Private Portals Architecture (`docs/portals/`)
+* 📊 [Private Portals ER Diagram](docs/portals/ER_DIAGRAM.md)
+* 🗺️ [Student & Teacher Portals UI Map](docs/portals/UI_MAP.md)
+* 📄 [Portals Status & Verification README](docs/portals/README.md)
 
 ---
 
